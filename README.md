@@ -13,6 +13,6 @@ Consistency, Isolation, and Durability) complaint transactional checkouts.
 
 # Tech Stack
 
-Framework: Ruby on Rails 8 (API mode)
-Database: PostgreSQL
-Architecture: Versioned RESTful JSON API (`/api/v1`)
+- Framework: Ruby on Rails 8 (API mode)
+- Database: PostgreSQL
+- Architecture: Versioned RESTful JSON API (`/api/v1`)
