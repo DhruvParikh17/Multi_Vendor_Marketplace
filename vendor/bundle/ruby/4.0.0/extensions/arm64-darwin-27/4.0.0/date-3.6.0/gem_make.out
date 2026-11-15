@@ -1,0 +1,28 @@
+current directory: /Users/dhruvpar1707/multi_vendor_marketplace/vendor/bundle/ruby/4.0.0/gems/date-3.6.0/ext/date
+/opt/homebrew/opt/ruby/bin/ruby extconf.rb
+checking for rb_category_warn()... yes
+checking for timezone in time.h with -Werror... yes
+checking for altzone in time.h with -Werror... no
+checking for rb_gc_mark_movable() in ruby.h... yes
+checking for RUBY_TYPED_EMBEDDABLE in ruby.h... yes
+creating Makefile
+
+current directory: /Users/dhruvpar1707/multi_vendor_marketplace/vendor/bundle/ruby/4.0.0/gems/date-3.6.0/ext/date
+make DESTDIR\= sitearchdir\=./.gem.20261115-88043-ralu7r sitelibdir\=./.gem.20261115-88043-ralu7r clean
+
+current directory: /Users/dhruvpar1707/multi_vendor_marketplace/vendor/bundle/ruby/4.0.0/gems/date-3.6.0/ext/date
+make DESTDIR\= sitearchdir\=./.gem.20261115-88043-ralu7r sitelibdir\=./.gem.20261115-88043-ralu7r
+compiling date_core.c
+compiling date_parse.c
+compiling date_strftime.c
+compiling date_strptime.c
+linking shared-object date_core.bundle
+ld: warning: search path '/opt/homebrew/Cellar/openssl@4/4.0.3/lib' not found
+ld: warning: building for macOS-26.5, but linking with dylib '/opt/homebrew/opt/ruby@4.0/lib/libruby.4.0.dylib' which was built for newer version 27.0
+
+current directory: /Users/dhruvpar1707/multi_vendor_marketplace/vendor/bundle/ruby/4.0.0/gems/date-3.6.0/ext/date
+make DESTDIR\= sitearchdir\=./.gem.20261115-88043-ralu7r sitelibdir\=./.gem.20261115-88043-ralu7r install
+/usr/bin/install -c -m 0755 date_core.bundle ./.gem.20261115-88043-ralu7r
+
+current directory: /Users/dhruvpar1707/multi_vendor_marketplace/vendor/bundle/ruby/4.0.0/gems/date-3.6.0/ext/date
+make DESTDIR\= sitearchdir\=./.gem.20261115-88043-ralu7r sitelibdir\=./.gem.20261115-88043-ralu7r clean

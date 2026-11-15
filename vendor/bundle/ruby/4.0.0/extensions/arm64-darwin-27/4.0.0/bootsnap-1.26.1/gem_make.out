@@ -1,0 +1,26 @@
+current directory: /Users/dhruvpar1707/multi_vendor_marketplace/vendor/bundle/ruby/4.0.0/gems/bootsnap-1.26.1/ext/bootsnap
+/opt/homebrew/opt/ruby/bin/ruby extconf.rb
+checking for fdatasync() in unistd.h... yes
+checking for fstatat() in sys/stat.h... yes
+checking for struct dirent.d_type in dirent.h... yes
+checking for whether -D_GNU_SOURCE is accepted as CPPFLAGS... yes
+checking for whether -O3 is accepted as CFLAGS... yes
+checking for whether -std=c99 is accepted as CFLAGS... yes
+creating Makefile
+
+current directory: /Users/dhruvpar1707/multi_vendor_marketplace/vendor/bundle/ruby/4.0.0/gems/bootsnap-1.26.1/ext/bootsnap
+make -j3 DESTDIR\= sitearchdir\=./.gem.20261115-88043-m7dusm sitelibdir\=./.gem.20261115-88043-m7dusm clean
+
+current directory: /Users/dhruvpar1707/multi_vendor_marketplace/vendor/bundle/ruby/4.0.0/gems/bootsnap-1.26.1/ext/bootsnap
+make -j3 DESTDIR\= sitearchdir\=./.gem.20261115-88043-m7dusm sitelibdir\=./.gem.20261115-88043-m7dusm
+compiling bootsnap.c
+linking shared-object bootsnap/bootsnap.bundle
+ld: warning: search path '/opt/homebrew/Cellar/openssl@4/4.0.3/lib' not found
+ld: warning: building for macOS-26.5, but linking with dylib '/opt/homebrew/opt/ruby@4.0/lib/libruby.4.0.dylib' which was built for newer version 27.0
+
+current directory: /Users/dhruvpar1707/multi_vendor_marketplace/vendor/bundle/ruby/4.0.0/gems/bootsnap-1.26.1/ext/bootsnap
+make -j3 DESTDIR\= sitearchdir\=./.gem.20261115-88043-m7dusm sitelibdir\=./.gem.20261115-88043-m7dusm install
+/usr/bin/install -c -m 0755 bootsnap.bundle ./.gem.20261115-88043-m7dusm/bootsnap
+
+current directory: /Users/dhruvpar1707/multi_vendor_marketplace/vendor/bundle/ruby/4.0.0/gems/bootsnap-1.26.1/ext/bootsnap
+make DESTDIR\= sitearchdir\=./.gem.20261115-88043-m7dusm sitelibdir\=./.gem.20261115-88043-m7dusm clean

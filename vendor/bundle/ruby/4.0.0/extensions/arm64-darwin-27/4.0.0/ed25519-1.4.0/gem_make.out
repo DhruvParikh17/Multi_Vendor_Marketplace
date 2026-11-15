@@ -1,0 +1,33 @@
+current directory: /Users/dhruvpar1707/multi_vendor_marketplace/vendor/bundle/ruby/4.0.0/gems/ed25519-1.4.0/ext/ed25519_ref10
+/opt/homebrew/opt/ruby/bin/ruby extconf.rb
+checking for whether -Wall is accepted as CFLAGS... yes
+checking for whether -O3 is accepted as CFLAGS... yes
+checking for whether -pedantic is accepted as CFLAGS... no
+checking for whether -std=c99 is accepted as CFLAGS... yes
+creating Makefile
+
+current directory: /Users/dhruvpar1707/multi_vendor_marketplace/vendor/bundle/ruby/4.0.0/gems/ed25519-1.4.0/ext/ed25519_ref10
+make DESTDIR\= sitearchdir\=./.gem.20261115-88043-la9x2c sitelibdir\=./.gem.20261115-88043-la9x2c clean
+
+current directory: /Users/dhruvpar1707/multi_vendor_marketplace/vendor/bundle/ruby/4.0.0/gems/ed25519-1.4.0/ext/ed25519_ref10
+make DESTDIR\= sitearchdir\=./.gem.20261115-88043-la9x2c sitelibdir\=./.gem.20261115-88043-la9x2c
+compiling ed25519_ref10.c
+compiling fe.c
+compiling ge.c
+compiling keypair.c
+compiling open.c
+compiling sc_muladd.c
+compiling sc_reduce.c
+compiling sha512.c
+compiling sign.c
+compiling verify.c
+linking shared-object ed25519_ref10.bundle
+ld: warning: search path '/opt/homebrew/Cellar/openssl@4/4.0.3/lib' not found
+ld: warning: building for macOS-26.5, but linking with dylib '/opt/homebrew/opt/ruby@4.0/lib/libruby.4.0.dylib' which was built for newer version 27.0
+
+current directory: /Users/dhruvpar1707/multi_vendor_marketplace/vendor/bundle/ruby/4.0.0/gems/ed25519-1.4.0/ext/ed25519_ref10
+make DESTDIR\= sitearchdir\=./.gem.20261115-88043-la9x2c sitelibdir\=./.gem.20261115-88043-la9x2c install
+/usr/bin/install -c -m 0755 ed25519_ref10.bundle ./.gem.20261115-88043-la9x2c
+
+current directory: /Users/dhruvpar1707/multi_vendor_marketplace/vendor/bundle/ruby/4.0.0/gems/ed25519-1.4.0/ext/ed25519_ref10
+make DESTDIR\= sitearchdir\=./.gem.20261115-88043-la9x2c sitelibdir\=./.gem.20261115-88043-la9x2c clean

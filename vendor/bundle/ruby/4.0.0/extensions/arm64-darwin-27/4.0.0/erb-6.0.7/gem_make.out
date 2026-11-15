@@ -1,0 +1,21 @@
+current directory: /Users/dhruvpar1707/multi_vendor_marketplace/vendor/bundle/ruby/4.0.0/gems/erb-6.0.7/ext/erb/escape
+/opt/homebrew/opt/ruby/bin/ruby extconf.rb
+checking for rb_ext_ractor_safe() in ruby.h... yes
+creating Makefile
+
+current directory: /Users/dhruvpar1707/multi_vendor_marketplace/vendor/bundle/ruby/4.0.0/gems/erb-6.0.7/ext/erb/escape
+make DESTDIR\= sitearchdir\=./.gem.20261115-88043-syildp sitelibdir\=./.gem.20261115-88043-syildp clean
+
+current directory: /Users/dhruvpar1707/multi_vendor_marketplace/vendor/bundle/ruby/4.0.0/gems/erb-6.0.7/ext/erb/escape
+make DESTDIR\= sitearchdir\=./.gem.20261115-88043-syildp sitelibdir\=./.gem.20261115-88043-syildp
+compiling escape.c
+linking shared-object erb/escape.bundle
+ld: warning: search path '/opt/homebrew/Cellar/openssl@4/4.0.3/lib' not found
+ld: warning: building for macOS-26.5, but linking with dylib '/opt/homebrew/opt/ruby@4.0/lib/libruby.4.0.dylib' which was built for newer version 27.0
+
+current directory: /Users/dhruvpar1707/multi_vendor_marketplace/vendor/bundle/ruby/4.0.0/gems/erb-6.0.7/ext/erb/escape
+make DESTDIR\= sitearchdir\=./.gem.20261115-88043-syildp sitelibdir\=./.gem.20261115-88043-syildp install
+/usr/bin/install -c -m 0755 escape.bundle ./.gem.20261115-88043-syildp/erb
+
+current directory: /Users/dhruvpar1707/multi_vendor_marketplace/vendor/bundle/ruby/4.0.0/gems/erb-6.0.7/ext/erb/escape
+make DESTDIR\= sitearchdir\=./.gem.20261115-88043-syildp sitelibdir\=./.gem.20261115-88043-syildp clean
