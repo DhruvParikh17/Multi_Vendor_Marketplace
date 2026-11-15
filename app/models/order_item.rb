@@ -2,6 +2,6 @@
 class OrderItem < ApplicationRecord
   belongs_to :order
   belongs_to :variant
-  
+
   validates :quantity, :price, presence: true
 end

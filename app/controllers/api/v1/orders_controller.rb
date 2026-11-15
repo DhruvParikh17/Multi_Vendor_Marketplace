@@ -2,11 +2,10 @@
 module Api
   module V1
     class OrdersController < ApplicationController
-      
       # POST /api/v1/stores/:store_id/orders
       def create
         @store = Store.find(params[:store_id])
-        
+
         ActiveRecord::Base.transaction do
           @order = @store.orders.new(order_params)
           @order.status = "pending" if @order.status.blank?
@@ -41,7 +40,7 @@ module Api
         params.require(:order).permit(
           :total_price,
           :status,
-          order_items_attributes: [:variant_id, :quantity, :price]
+          order_items_attributes: [ :variant_id, :quantity, :price ]
         )
       end
     end

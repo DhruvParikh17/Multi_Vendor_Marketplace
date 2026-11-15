@@ -2,7 +2,6 @@
 module Api
   module V1
     class ProductsController < ApplicationController
-      
       # GET /api/v1/stores/:store_id/products
       def index
         @store = Store.find(params[:store_id])
@@ -26,9 +25,9 @@ module Api
 
       def product_params
         params.require(:product).permit(
-          :title, 
-          :description, 
-          variants_attributes: [:sku, :price, :inventory_count]
+          :title,
+          :description,
+          variants_attributes: [ :sku, :price, :inventory_count ]
         )
       end
     end
